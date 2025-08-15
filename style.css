@@ -16,9 +16,6 @@ body{
     max-width: 1280px;
     margin: 0 auto;
 }
-.interface img{
-   width: 75px;
-} 
 .flex{
     display: flex;
 }
@@ -26,7 +23,7 @@ body{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color:rgb(254, 114, 0);
+    background-color:rgb(254, 250, 0);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -37,7 +34,7 @@ h2.titulo{
     text-align: center;
 }
 h2.titulo span{
-    color:rgb(254, 114, 0);
+    color:rgb(254, 250, 0);
 }
 /* ESTILO DO CABEÇALHO */
 
@@ -52,7 +49,7 @@ header > .interface{
 }
 
 a{
-    color: #ffffff;
+    color: #7b7b7b;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -72,7 +69,7 @@ header nav ul li{
 }
 
 .btn-contato button:hover{
-    box-shadow: 0px 0px 8px rgb(254, 114, 0);;;
+    box-shadow: 0px 0px 8px rgb(254, 250, 0);;
     transform: scale(1.05) ;
 }
 
@@ -93,7 +90,7 @@ section.topo-do-site .flex{
     line-height: 48px;
 }
 .topo-do-site .txt-topo-site h2 span{
-    color:rgb(254, 114, 0);
+    color:rgb(254, 250, 0);
     font-size: 84px;;
 }
 
@@ -138,41 +135,9 @@ section.especialidades .flex{
 }
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color: rgb(254, 114, 0);
+    color: rgb(254, 250, 0);
 }
 .especialidades .especialidades-box h3{
     font-size: 28px;
     margin: 15px 0;
-}
-/* Portifolio */
-
-section.portifolio{
-    padding: 40px 4%;
-}
-section.portifolio .flex{
-    gap: 60px;
-}
-.portifolio .portifolio-box{
-    color: #fff;
-    padding: 40px;
-    border-radius: 20px;
-    margin-top: 45px;
-    transition: 1.2s;
-}
-.portifolio .portifolio-box:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 20px #ffffff80 ;
-}
-.portifolio .portifolio-box img{
-    font-size: 70px;
-    color: rgb(254, 114, 0);
-}
-.portifolio .portifolio-box h3{
-    font-size: 28px;
-    margin: 15px 0;
-}
-.portifolio .portifolio-box img{
-    width: 250px;
-    border-radius: 10%;
-
 }
